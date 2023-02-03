@@ -1,0 +1,9 @@
+Task
+1. Create a resume/cv
+- Use headings 
+- Use lists
+- Use images
+
+2. Create a repository on github called resume
+3. Push the changes to your document to your repository
+4. Have one resume.html document 
