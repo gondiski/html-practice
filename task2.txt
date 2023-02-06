@@ -1,0 +1,6 @@
+Write a html document with a sign up form for instagram
+
+1. Write the html document
+2. Add the validation for required forms
+3. Add the sign up button
+
