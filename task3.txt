@@ -2,7 +2,7 @@ Task 3
 Create a survey for collection of data for a hospital about their services
 
 1. Let your form have a heading
-2. Your form to have checkboxes with yes/no options
-3. Your form will allow users select multiple options
+2. Your form to have radio with yes/no options
+3. Your form will allow users select multiple options using checkboxes
 4. Let the form have a date of submission
-
+5. Use the input type = telephone to collect user phone number
