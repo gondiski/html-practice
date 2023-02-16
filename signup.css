@@ -16,6 +16,7 @@ main{
     width: 50%;
     height: 100vh;
     background-image: url("./venti-views-DPk9eGd9Ft4-unsplash.jpg");
+    background-position: center;
 }
 .right{
     display: flex;
@@ -55,10 +56,12 @@ button{
     color: white;
     border-radius: 8px;
     border:none;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 button:hover{
     color: blueviolet;
     background-color: #fff;
     cursor: pointer;
     box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    transition: ease-in-out;
 }
