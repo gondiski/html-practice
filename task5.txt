@@ -1,0 +1,6 @@
+Create a forgot password page
+1. Add the styling signup.css to the page
+2. Have one form input 
+3. Have one button
+4. Include links at the bottom of the form to help you navigate back to the sign up and login page
+
