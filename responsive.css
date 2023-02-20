@@ -1,0 +1,108 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    background-color: #fafafa;
+    padding: 1.2rem;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.2);
+}
+nav ul{
+    display: flex;
+}
+nav ul>li{
+    padding-right:15px ;
+    list-style: none;
+}
+main{
+    /* this display type lays our content in a grid like style  */
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    background: #fefefe;
+    margin-bottom: 2rem;
+    padding:1.2rem;
+}
+main img{
+    max-width: 100%;
+    height: auto;
+}
+main .sidebar{
+    padding: 1.2rem;
+}
+.sidebar ul>li{
+    list-style: none;
+}
+main p{
+    line-height: 18pt;
+}
+main form{
+    display: table;
+    width: 100%;
+}
+main input,button{
+    width: 100%;
+    padding: 8px;
+    margin: 3px 0;
+    border-radius: 7.5px;
+    border: 1px solid #444;
+    font-family: sans-serif;
+}
+main button{
+    background-color: black;
+    color:white;
+}
+footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    padding: 1.2rem;
+}
+footer p{
+    line-height: 17pt;
+}
+footer .copy{
+    color: #444;
+}
+footer ul>li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #0099ff;
+}
+footer a:visited{
+    color: dodgerblue;
+}
+/* media queries */
+/* These allow us to make our page responsive based on the device one is using */
+
+@media only screen and (max-width: 768px) {
+    main{
+        /* this display type lays our content in a grid like style  */
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 1rem;
+        background: #fefefe;
+        margin-bottom: 2rem;
+    }
+    .sidebar ul{
+        display: flex;
+    }
+    .sidebar ul>li{
+        padding-right: 15px;
+        padding-left:unset;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 1.2rem;
+    }
+}
