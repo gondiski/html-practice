@@ -1,0 +1,4 @@
+Task 6
+
+Create your CV/Resume using bootstrap css and include some utility classes in your code to make it responsive
+
