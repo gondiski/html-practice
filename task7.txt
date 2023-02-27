@@ -1,0 +1,10 @@
+Task 7
+Q. You are asked to build the following pages:
+i. Sign up page
+ii. Login page
+iii. Forgot password page
+
+Instructions:
+i. Use bootstrap styling
+ii. Refer to documentation for the elements you'd like to style
+iii. Commit the project to a new github repository called task7
