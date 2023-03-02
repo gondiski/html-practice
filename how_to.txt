@@ -1,0 +1,4 @@
+How to create a github pages webpage
+1. Create a repository in your github with the following format username.github.io
+2. On your local machine create a new folder and in it add an index.html file
+3. Add and commit your file to the repository that you have created

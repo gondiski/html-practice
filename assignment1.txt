@@ -1,0 +1,29 @@
+Assignment 1
+Due date: 3rd March 2023
+Total Attainable Marks 20
+==========================
+
+Q1. Build a HTML page with a table that has the following columns and insert 20 records in it.
+i. Student Name
+ii. Admission number
+iii. Gender
+iv. English
+v. Maths
+vi. Science
+vii. Total Marks
+viii. Average Marks
+NB: Ensure that the table has a title
+
+Q2. Build a HTML page for a company with the following pages
+i. Home
+ii. About
+iii. Gallery
+iv. Contact
+Link the menu items (Home, about,gallery,contact) to their respective pages
+- Ensure the contact page has a form that can be filled and submitted
+- Ensure that your page is responsive
+
+Instructions
+* use bootstrap to style for this project
+* submit your code to github for everyproject (students_table & company_page)
+* add the link to your resume on username.github.io for every project under a section called 'ProjectS'
